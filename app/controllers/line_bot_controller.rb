@@ -40,7 +40,7 @@ class LineBotController < ApplicationController
     query = {
       'keyword': keyword,
       'applicationId': ENV["RAKUTEN_APPID"],
-      'hits': 10,
+      'hits': 5,
       'responseType': 'small',
       'datumType': 1,
       'formatVersion': 2
